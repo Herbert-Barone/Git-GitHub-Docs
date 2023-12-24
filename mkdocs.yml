@@ -1,0 +1,55 @@
+site_name: Git e GitHub - Herbert Barone
+
+
+nav:
+  - Introdução: 'index.md'
+  - Git e GitHub: 'page2.md'
+  - Instalando o Git: 'page3.md'
+  - Configurações Iniciais do Git: 'page4.md'
+  - Conectando o Git ao GitHub: 'page5.md'
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: default
+      primary: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Alterar para o modo Claro
+        
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Alterar para o modo Noturno
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Herbert-Barone
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/herbert-barone-0bb397204/
+      name: Likedin
+  generator: True
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist
+  - pymdownx.emoji
+  - pymdownx.mark
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+
+extra_css:
+  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.css
+extra_javascript:
+  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js
