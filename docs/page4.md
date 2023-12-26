@@ -11,7 +11,7 @@ No **Windows** é fortemente recomendado utilizar o **GIT-BASH**, que vem com a 
 O **[Git](page2.md\#o-que-é-o-git)** possui três maneiras de salvar as configurações feitas. São elas:
 
 - Global: Salva no Usuário atual da máquina.
-- System: Salva no Sistema ou seja, em todos os Usuários da máquina.
+- System: Salva no sistema, ou seja, em todos os Usuários da máquina.
 - Local: Salva no Repositório que o comando foi usado.
 
 ```{hl_lines="4-6" title='Entrada no Terminal: git config'}
@@ -20,13 +20,13 @@ Saida:
 Config file location
     --global    use global config file
     --system    use system config file
-    --local     use repository config file  
+    --local     use repository config file
 ...   
 ```
 
 ## Primeiras Configurações
 
-As principais configurações do usuário que devemos definir e o **nome** e **e-mail** do **autor** dos **commits**.
+As principais configurações do usuário que devemos definir são **nome** e **e-mail** do **autor** dos **commits**.
 
 ### Definindo o Nome do Autor
 
@@ -66,7 +66,7 @@ git config --(location) user.email (e-mail) # Substituir (location) e (e-mail).
 
 ### Definindo branch padrão
 
-Com o intuito de trazer maior **organização**, **compreensão** e **colaboração eficiente** nos projetos é **extremamente recomendado** por o nome da **branch** padrão como **"main"**.
+Com o intuito de trazer maior **organização**, **compreensão** e **colaboração eficiente** nos projetos é **extremamente recomendado** pôr o nome da **branch** padrão como **"main"**.
 
 
 Para alterar o nome da branch padrão utilize o seguinte comando:

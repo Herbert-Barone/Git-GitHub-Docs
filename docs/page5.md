@@ -2,7 +2,7 @@
 
 ## Formas de Conexão
 
-O **[GitHub](page2.md\#o-que-é-o-github)** desde **2021** deixou de aceitar senhas para autenticação das operações **[Git](page2.md\#o-que-é-o-git)** no intuito de prover maior **segurança** para a plataforma e os usuários. Então desde então as formas de conectar ambos é através de **Tokens** ou **chaves SSH**.
+O **[GitHub](page2.md\#o-que-é-o-github)** desde **2021** deixou de aceitar senhas para autenticação das operações **[Git](page2.md\#o-que-é-o-git)** no intuito de prover maior **segurança** para a plataforma e os usuários. Desde então as formas de conectar ambos é através de **Tokens** ou **chaves SSH**.
 
 ### Vantagens desse tipo de conexão
 
